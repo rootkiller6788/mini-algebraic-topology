@@ -1928,16 +1928,6 @@ theorem hurewicz_theorem : True := by trivial
 L5: ADDITIONAL PROOF TECHNIQUES (Documented)
 -/
 
-theorem proof_by_contradiction_example : True := by trivial
-theorem proof_by_contrapositive_example : True := by trivial
-theorem proof_by_construction_example : True := by trivial
-theorem proof_by_exhaustion_example : True := by trivial
-theorem proof_by_diagonalization_example : True := by trivial
-theorem proof_by_transfinite_induction_example : True := by trivial
-theorem proof_by_zorn_lemma_example : True := by trivial
-theorem proof_by_pigeonhole_example : True := by trivial
-theorem proof_by_infinite_descent_example : True := by trivial
-theorem proof_by_generating_functions_example : True := by trivial
 
 /-
 L6: ADDITIONAL CANONICAL EXAMPLES (Documented)
@@ -2888,7 +2878,6 @@ theorem segal_conjecture_generalized : True := by trivial
 /- FINAL LEAN VERIFICATION -/
 
 example : 1 + 1 = 2 := by decide
-example : True := by trivial
 
 /-
 ================================================================================

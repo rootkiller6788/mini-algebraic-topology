@@ -77,7 +77,6 @@ structure HiltonMilnor where
   basis : List Nat
   product : CWComplex
 
-theorem hilton_milnor_example : True := by trivial
 
 def hiltonMilnorS2veeS2 (k : Nat) : Nat :=
   if k = 2 then 2 else if k = 3 then 3 else 0

@@ -14,7 +14,6 @@ open MiniHigherHomotopy.Morphisms.Iso
 
 theorem whitehead_full : True := by trivial
 theorem whitehead_nilpotent : True := by trivial
-theorem whitehead_counterexample : True := by trivial
 
 theorem cellular_approximation_full (X Y : CWComplex) (f : ContinuousMap) : True := by trivial
 theorem skeleton_homotopy (X : CWComplex) (k n : Nat) (h : k < n) : True := by trivial

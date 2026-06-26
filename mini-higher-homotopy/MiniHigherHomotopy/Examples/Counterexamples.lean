@@ -6,8 +6,6 @@ namespace MiniHigherHomotopy.Examples.Counterexamples
 open MiniHigherHomotopy.Core.Basic
 open MiniHigherHomotopy.Core.Laws
 
-theorem pseudoCircle_counterexample : True := by trivial
-theorem doubleComb_counterexample : True := by trivial
 theorem hawaiian_earring : True := by trivial
 theorem whitehead_product_S2veeS2 : True := by trivial
 theorem hilton_milnor_pi3 : True := by trivial
