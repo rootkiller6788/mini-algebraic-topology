@@ -12,3 +12,7 @@ lakefile.olean
 # OS files
 .DS_Store
 Thumbs.db
+
+nul
+
+...
