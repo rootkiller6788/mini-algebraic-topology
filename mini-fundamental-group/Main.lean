@@ -1,0 +1,31 @@
+import MiniFundamentalGroup
+
+open MiniFundamentalGroup
+
+def main : IO Unit := do
+  IO.println "═══════════════════════════════════════"
+  IO.println "  MiniFundamentalGroup v0.1.0"
+  IO.println "  Fundamental Group π₁ in Algebraic Topology"
+  IO.println "═══════════════════════════════════════"
+  IO.println s!"  Fundamental Group π₁(X, x₀): group of homotopy classes"
+  IO.println s!"  of loops based at x₀ in topological space X"
+  IO.println s!"  Path: continuous map f: I → X"
+  IO.println s!"  Loop: a path with f(0) = f(1) = x₀"
+  IO.println s!"  Homotopy: continuous deformation H: I × I → X"
+  IO.println s!"  π₁(S¹) ≅ ℤ (the fundamental group of the circle)"
+  IO.println s!"  π₁(T^n) ≅ ℤ^n (the fundamental group of the n-torus)"
+  IO.println s!"  π₁(S^n) ≅ {1} for n ≥ 2 (higher spheres are simply connected)"
+  IO.println s!"  π₁(ℝP²) ≅ ℤ/2ℤ (projective plane)"
+  IO.println s!"  π₁(wedge ∨_α S¹) ≅ free group on α generators"
+  IO.println s!"  Van Kampen: π₁(U ∪ V) ≅ π₁(U) *_{π₁(U∩V)} π₁(V)"
+  IO.println s!"  Covering space theory: π₁ acts on fibers"
+  IO.println s!"  Functoriality: π₁ preserves products and pushouts"
+  IO.println s!"  Higher homotopy: π_n(X) for n ≥ 2"
+  IO.println ""
+  IO.println s!"  Key theorems: π₁(S¹)≅ℤ, Van Kampen, Brouwer fixed point, FTA"
+  IO.println s!"  Surfaces: π₁(T²)≅ℤ², π₁(K²)≅⟨a,b|aba⁻¹b⟩, π₁(Σ_g)"
+  IO.println s!"  Applications: knot theory, braid groups, configuration spaces"
+  IO.println s!"  Advanced: π_n (higher homotopy), Whitehead theorem, Hurewicz"
+  IO.println s!"  Bridges: Galois theory of covering spaces, uniformization"
+  IO.println "  Depends on: self-contained (custom TopologicalSpace typeclass)"
+  IO.println "  Run `lake env lean --run Test/Smoke.lean` for tests."

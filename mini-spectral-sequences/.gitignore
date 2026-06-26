@@ -1,0 +1,13 @@
+# Lean 4 build output
+.lake/
+build/
+
+# IDE
+*.olean
+*.ilean
+*.trace
+*.hash
+
+# OS
+.DS_Store
+Thumbs.db

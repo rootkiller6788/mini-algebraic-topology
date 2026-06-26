@@ -1,0 +1,48 @@
+/-
+# MiniHomotopyTheory — Homotopy Theory Module
+
+Root aggregator importing all submodules of the mini-homotopy-theory package.
+-/
+
+import MiniHomotopyTheory.Core.Basic
+import MiniHomotopyTheory.Core.HomotopyEquivalence
+import MiniHomotopyTheory.Core.Paths
+import MiniHomotopyTheory.Core.Contractible
+import MiniHomotopyTheory.Core.Retraction
+
+import MiniHomotopyTheory.Groups.FundamentalGroup
+import MiniHomotopyTheory.Groups.HigherHomotopyGroups
+import MiniHomotopyTheory.Groups.RelativeGroups
+import MiniHomotopyTheory.Groups.ExactSequence
+
+import MiniHomotopyTheory.Operations.Composition
+import MiniHomotopyTheory.Operations.InducedMaps
+import MiniHomotopyTheory.Operations.Basepoint
+
+import MiniHomotopyTheory.Theorems.SeifertVanKampen
+import MiniHomotopyTheory.Theorems.Hurewicz
+import MiniHomotopyTheory.Theorems.Whitehead
+import MiniHomotopyTheory.Theorems.FibrationSequence
+
+import MiniHomotopyTheory.Structures.Fibration
+import MiniHomotopyTheory.Structures.Cofibration
+import MiniHomotopyTheory.Structures.HomotopyLimits
+
+import MiniHomotopyTheory.Methods.Cellular
+import MiniHomotopyTheory.Methods.Spectral
+import MiniHomotopyTheory.Methods.Obstruction
+
+import MiniHomotopyTheory.Examples.Spheres
+import MiniHomotopyTheory.Examples.ProjectiveSpaces
+import MiniHomotopyTheory.Examples.EilenbergMacLane
+import MiniHomotopyTheory.Examples.HopfFibration
+
+import MiniHomotopyTheory.Applications.FixedPointTheory
+import MiniHomotopyTheory.Applications.CoveringSpaces
+import MiniHomotopyTheory.Applications.ObstructionTheory
+
+import MiniHomotopyTheory.Advanced.ModelCategories
+import MiniHomotopyTheory.Advanced.StableHomotopy
+import MiniHomotopyTheory.Advanced.RationalHomotopy
+
+import MiniHomotopyTheory.Research.InfinityCategories

@@ -1,0 +1,14 @@
+# Build artifacts — Lean / Lake
+build/
+.lake/
+lakefile.olean
+*.o *.obj *.exe *.out *.so *.a *.dll *.lib *.dylib *.dSYM
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+# OS files
+.DS_Store
+Thumbs.db
